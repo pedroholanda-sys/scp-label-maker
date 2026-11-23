@@ -1,6 +1,8 @@
 
 # SCP Label Maker
 
+(My changes, I've added a new type of hazard: Sentient CognitoHazard. Will add more later.)
+
 A simple project to help with creating SCP labels.
 
 Highly customizable, with options such as:
