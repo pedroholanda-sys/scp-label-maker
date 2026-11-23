@@ -18,6 +18,7 @@ pub enum Hazard {
     SelfReplicating,
     SentientViolent,
     SentientObject,
+    SentientCognitohazard,
 }
 
 use std::fmt;
@@ -45,6 +46,7 @@ impl Hazard {
             Self::SelfReplicating,
             Self::SentientViolent,
             Self::SentientObject,
+            Self::SentientCognitohazard,
         ]
     }
 
@@ -64,6 +66,7 @@ impl Hazard {
             Self::SelfReplicating => "Self Replicating",
             Self::SentientViolent => "Sentient and Violent",
             Self::SentientObject => "Sentient Object",
+            Self::SentientCognitohazard => "Sentient Cognitohazard",
         }
     }
 
@@ -83,6 +86,7 @@ impl Hazard {
             Self::SelfReplicating => "self_replicating",
             Self::SentientViolent => "sentient_violent",
             Self::SentientObject => "sentient_object",
+            Self::SentientCognitohazard => "sentientcognitohazard",
         }
     }
 
